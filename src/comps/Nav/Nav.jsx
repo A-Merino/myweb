@@ -1,11 +1,9 @@
 import { useState } from 'react'
 import './Nav.css'
 import {Link} from 'react-router-dom';
+
 function Nav(props) {
-
-
-
-
+    
     return (
     <>
         <nav>

@@ -1,26 +1,25 @@
 import { useState } from 'react'
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import './App.css';
-import Nav from './../Nav/Nav.jsx';
 import Home from './../Home/Home.jsx';
-import CCHolder from './../CCHolder/CCHolder.jsx';
+import Classes from './../Classes/Classes.jsx';
+import Photography from './../Photography/Photography.jsx';
+import Projects from './../Projects/Projects.jsx';
 
 function App() {
     const [count, setCount] = useState(0)
 
     return (
         <>
-
-            <BrowserRouter>
-                <Routes>
-                    <Route path='/' element={<Home/>}/>
-                    
-                    <Route path='/classes' element={<CCHolder/>}/>
-                    {/*<Route path='/' element={<Projects/>}/>
-                    <Route path='/' element={<Picturesd/>}/>
-                     */}   
-                </Routes>
-            </BrowserRouter>
+        <BrowserRouter>
+            <Routes>
+                <Route path='/' element={<Home/>}/>  
+                <Route path='/classes' element={<Classes/>}/>
+                <Route path='/pics' element={<Photography/>}/>
+                <Route path='/projs' element={<Projects/>}/>
+                        
+            </Routes>
+        </BrowserRouter>
         </>
     )
 }
