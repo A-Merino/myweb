@@ -1,0 +1,23 @@
+#home-all {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+#home-main {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#home-side {
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
