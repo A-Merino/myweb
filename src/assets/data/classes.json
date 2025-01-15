@@ -1,0 +1,321 @@
+[
+    {
+        "class": "Senior Project 1",
+        "id": "senior-proj-1",
+        "grade": "N/A",
+        "semester": "Spring 2025",
+        "professor": "Dr. Chan",
+        "link": "https://cs.fit.edu/~pkc/",
+        "description": "A two-semester, senior-year project sequence that serves as the capstone for the project-intensive courses in computer science. Students work in teams to implement a software project from conception to completion."
+
+    },{
+        "class": "Computer Architecture and Assembly Programming",
+        "id": "comp-arch-assembly",
+        "grade": "N/A",
+        "semester": "Spring 2025",
+        "professor": "Dr. Silaghi",
+        "link": "https://cs.fit.edu/~msilaghi/",
+        "description": "Introduces advanced computer architecture concepts. Includes microcode, execution pipelines, cache management, vector processors, parallel architectures and RISC processors. Explores the interfacing of assembly language programs with the operating system and high-level languages. Requires students to interface assembly with C and the Win32 API."
+    },{
+        "class": "Programming Language Concepts",
+        "id": "plc",
+        "grade": "N/A",
+        "semester": "Spring 2025",
+        "professor": "Dr. Mohan",
+        "link": "https://appstate.digication.com/raghuveer_mohan/about-me",
+        "description": "Surveys programming language concepts and design principles of programming paradigms (procedural, functional and logic). Includes a history of programming languages, data types supported, control structures and run-time management of dynamic structures."
+    },{
+        "class": "Numerical Analysis",
+        "id": "num-al",
+        "grade": "N/A",
+        "semester": "Spring 2025",
+        "professor": "Dr. Liu",
+        "link": "https://sites.google.com/view/pei-liu/home",
+        "description": "Includes interpolation and approximation, solution of linear systems (basic iterative methods, conjugate gradient and preconditioner) and linear least square problems (QR and SVD), fast Fourier transform, numerical solution of ODEs, and boundary values problems (finite difference/finite element)."
+    },{
+        "class": "General Chemistry 2",
+        "id": "chem-2",
+        "grade": "N/A",
+        "semester": "Spring 2025",
+        "professor": "Dr. Smith",
+        "link": "https://scholar.google.com/citations?hl=en&user=V-d4gEEAAAAJ",
+        "description": "Continues CHM 1101. Covers acids and bases, thermodynamics, electrochemistry, kinetics, descriptive chemistry of metals and nonmetals, coordination chemistry, nuclear chemistry. Introduces organic chemistry"
+    },{
+        "class": "General Chemistry Laboratory 2",
+        "id": "chem-lab-2",
+        "grade": "N/A",
+        "semester": "Spring 2025",
+        "professor": "Dr. Smith",
+        "link": "https://scholar.google.com/citations?hl=en&user=V-d4gEEAAAAJ",
+        "description": "Incorporates lab experience demonstrating principles of acids and bases, thermodynamics, electrochemistry, and kinetics. Complements CHM 1102 General Chemistry 2. "
+    },{
+        "class": "Deep Learning",
+        "id": "deep-learning",
+        "grade": "A",
+        "semester": "Fall 2024",
+        "professor": "Dr. White",
+        "link": "https://www.ryantwhite.com",
+        "description": "A project-based introduction to deep learning architectures, algorithms and applications. Includes multilayer perceptrons, convolutional neural networks, recurrent neural networks and transformers, theory and implementation of learning algorithms, training and tuning procedures, applications to computer vision and natural language processing."
+
+    },
+    {
+        "class": "Computer Networks",
+        "id": "comp-nets",
+        "grade": "A",
+        "semester": "Fall 2024",
+        "professor": "Dr. Carvalho",
+        "link": "https://www.linkedin.com/in/marco-carvalho-2798a92/",
+        "description": "Provides an overview of computer networks, applications and protocols. Includes network architectures, routing, addressing, medium access control, connection-oriented and connectionless services, network performance analysis, network programming and common transport-layer, network-layer and link-layer protocols."
+
+    },
+    {
+        "class": "Web Applications",
+        "id": "web-apps",
+        "grade": "A",
+        "semester": "Fall 2024",
+        "professor": "Dr. Fitz",
+        "link": "https://drfitz.fit",
+        "description": "Covers design and implementation of programs that offer services over the Web. Addresses Web-related standards and trends, browser compatibility, Web-related security and authentication, architectures, multimedia support and accessibility. Introduces multiple technologies (HTTP, SMTP, HTML, CSS, XML, JavaScript, PHP, JSP, applets, servelets)."
+
+    },
+    {
+        "class": "Scientific Computing",
+        "id": "sci-comp",
+        "grade": "A",
+        "semester": "Fall 2024",
+        "professor": "Dr. Liu",
+        "link": "https://sites.google.com/view/pei-liu/home",
+        "description": "Introduces the basic concepts and tools in scientific computing relevant to computational science and engineering. Includes basic computer programming and data processing, interpolation and approximation, solution of linear/nonlinear systems of equations, numerical differential equations and stochastic simulation."
+
+    },
+    {
+        "class": "Operating Systems Concepts",
+        "id": "os-concepts",
+        "grade": "A",
+        "semester": "Fall 2024",
+        "professor": "Dr. Ribeiro",
+        "link": "https://eraldoribeiro.github.io",
+        "description": "Examines the design and implementation of operating systems. Includes process, storage and recovery management. Explores issues involved in moving from single-user systems to multitasking, multiprocessing and multiprocessor systems."
+
+    },
+    {
+        "class": "Algorithms and Data Structures",
+        "id": "data-struct",
+        "grade": "B",
+        "semester": "Spring 2023",
+        "professor": "Dr. Chan",
+        "link": "https://cs.fit.edu/~pkc/",
+        "description": "Expands Fundametals of Software Development 2 to include algorithms and data structures fundamental to software systems development. Includes abstraction, recursion, algorithm design and complexity analysis, linked lists, stacks, queues, trees, and sorting and searching methods."
+
+    },
+    {
+        "class": "Intro to Machine Learning",
+        "id": "machine-learn",
+        "grade": "A",
+        "semester": "Spring 2024",
+        "professor": "Dr. White",
+        "link": "https://www.ryantwhite.com",
+        "description": "A broad introduction to machine learning and data mining. Topics include supervised learning (feature selection, Bayesian classifier, nearest neighbors, logistic regression, decision trees, support vector machines) and unsupervised learning (dimensionality reduction, k-means clustering, hierarchical clustering, principal component analysis) methods."
+
+    },
+    {
+        "class": "Computer Graphics Algorithms",
+        "id": "graphics",
+        "grade": "A",
+        "semester": "Spring 2024",
+        "professor": "Dr. Ribeiro",
+        "link": "https://eraldoribeiro.github.io",
+        "description": "Introduces computer graphics algorithms, software and hardware. Includes ray tracing, the graphics pipeline, transformations, texture mapping, shading models, sampling, global illumination, splines, animation and color models. Programming format in course provides sufficient background to write computer graphics applications."
+
+    },
+    {
+        "class": "Probability and Statistics",
+        "id": "prob-stat",
+        "grade": "A",
+        "semester": "Spring 2023",
+        "professor": "Dr. White",
+        "link": "https://www.ryantwhite.com",
+        "description": "Random variables, expectations, sampling and estimation of parameters, normal and other distributions and central-limit theorem, tests of hypothesis, linear regression and design experiments."
+
+    },
+    {
+        "class": "Differential Equations",
+        "id": "diff-eq",
+        "grade": "A",
+        "semester": "Spring 2024",
+        "professor": "Dr. Mosincat",
+        "link": "https://scholar.google.com/citations?user=S42izkAAAAAJ&hl=en",
+        "description": "First-order differential equations, linear differential equations with constant coefficients, first-order systems of differential equations with constant coefficients, numerical methods, Laplace transforms, series solutions, algebraic systems of equations, matrices, determinants, vector spaces, eigenvalues and eigenvectors."
+
+    },
+    {
+        "class": "Civilization 2:  Renaissance to Modern",
+        "id": "civ-2",
+        "grade": "A",
+        "semester": "Spring 2024",
+        "professor": "Dr. Burke",
+        "link": "https://curriculumcrasher.com",
+        "description": "Similar in purpose and method to Civilization 1:  Ancient Through Medieval, continues the interpretation of primary texts, emphasizing the Renaissance period, the Enlightenment, Romanticism and the Modern Age."
+
+    },
+    {
+        "class": "Physics 1",
+        "id": "physics",
+        "grade": "A",
+        "semester": "Fall 2023",
+        "professor": "Dr. Martin",
+        "link": "https://www.fit.edu/faculty-profiles/m/martin-paul/",
+        "description": "Includes vectors; mechanics of particles; Newton’s laws of motion; work, energy and power; impulse and momentum; conservation laws; mechanics of rigid bodies, rotation, equilibrium; fluids, heat and thermodynamics; and periodic motion."
+
+    },
+    {
+        "class": "Physics Laboratory 1",
+        "id": "phys-lab",
+        "grade": "A",
+        "semester": "Fall 2023",
+        "professor": "",
+        "link": "",
+        "description": "Experiments to elucidate concepts and relationships presented in Physics 1, to develop understanding of the inductive approach and the significance of a physical measurement, and to provide some practice in experimental techniques and methods."
+
+    },
+    {
+        "class": "Intro to Linear Algebra",
+        "id": "lin-alg",
+        "grade": "A",
+        "semester": "Fall 2023",
+        "professor": "Dr. Nguyen",
+        "link": "https://scholar.google.com/citations?user=QTQc1yUAAAAJ&hl=en",
+        "description": "Includes vectors and matrices, linear equations, vector spaces and subspaces, orthogonality, determinants, eigenvalues and eigenvectors, and linear transformations. Introduces students to solution and manipulation of matrix equations using a standard package of mathematical software."
+
+    },
+    {
+        "class": "Calculus 3",
+        "id": "calc-3",
+        "grade": "A",
+        "semester": "Fall 2023",
+        "professor": "Dr. Kiguradze",
+        "link": "https://www.fit.edu/faculty-profiles/k/kiguradze-tariel/",
+        "description": "Cylindrical and spherical coordinates, vectors, functions of several variables, partial derivatives and extrema, multiple integral, vector integral calculus."
+
+    },
+    {
+        "class": "Intro to Software Engineering",
+        "id": "soft-eng",
+        "grade": "A",
+        "semester": "Fall 2023",
+        "professor": "Dr. Bhattacharyya",
+        "link": "https://www.linkedin.com/in/siddhartha-bhattacharyya-23382020/",
+        "description": "Presents a basis for the integration of engineering rigor and software development. Students are shown a practical yet rigorous method of going from a problem concept to a software solution. Includes requirements specification, functional specification and coding techniques using information hiding and stepwise refinement."
+
+    },
+    {
+        "class": "Programming in a Second Language",
+        "id": "python",
+        "grade": "A",
+        "semester": "Fall 2023",
+        "professor": "Dr. Fitz",
+        "link": "https://drfitz.fit",
+        "description": "Introduces a second programming language for computer science majors. Students learn to read and write programs in a second language. The language chosen is one with wide popularity and use."
+
+    },
+    {
+        "class": "General Chemistry 1",
+        "id": "chem-1",
+        "grade": "A",
+        "semester": "Spring 2023",
+        "professor": "Dr. Usselman",
+        "link": "https://robertusselman.github.io/usselmanlab/",
+        "description": "Covers fundamental principles of modern chemistry, including stoichiometry, properties of gases, liquids and solids, thermochemistry, atomic structure, properties of solutions and equilibrium."
+
+    },
+    {
+        "class": "General Chemistry Laboratory 1",
+        "id": "chem-lab-1",
+        "grade": "A",
+        "semester": "Spring 2023",
+        "professor": "Dr. Smith",
+        "link": "https://scholar.google.com/citations?hl=en&user=V-d4gEEAAAAJ",
+        "description": "Incorporates lab experience demonstrating properties of matter, thermochemistry, properties of gases, and equilibrium. Complements CHM 1101 General Chemistry 1."
+
+    },
+    {
+        "class": "Scientific and Technical Communication",
+        "id": "sci-tech",
+        "grade": "B",
+        "semester": "Spring 2023",
+        "professor": "Dr. Gonzalez",
+        "link": "https://www.linkedin.com/in/stephanie-gonzalez-37531719/",
+        "description": "Practice in the technical and scientific writing style and format, including gathering and using data to prepare reports. Includes abstracts, reports, letters, technical descriptions, proposals and at least two oral presentations."
+
+    },
+    {
+        "class": "Computer Organization and Machine Programming",
+        "id": "comp-org",
+        "grade": "A",
+        "semester": "Spring 2023",
+        "professor": "Dr. Caraway",
+        "link": "https://www.fit.edu/faculty-profiles/c/caraway-lee/",
+        "description": "Introduces digital logic, computer arithmetic, instruction sets and the basic components of computer architecture. Covers arithmetic/logic, control, memory and input/output units. Explores the relationship between computer architecture and machine language programming. Requires students to write programs in Intel assembly language."
+
+    },
+    {
+        "class": "Calculus 2",
+        "id": "calc-2",
+        "grade": "A",
+        "semester": "Spring 2023",
+        "professor": "Dr. Girton",
+        "link": "https://www.fit.edu/faculty-profiles/g/girton-william/",
+        "description": "Integration and applications of integration, further techniques of integration, improper integrals, limits, l’Hospital’s rule, sequences and series, numerical methods, polar coordinates and introductory differential equations."
+
+    },
+    {
+        "class": "Calculus 1",
+        "id": "calc-1",
+        "grade": "A",
+        "semester": "Fall 2022",
+        "professor": "Dr. Kovats",
+        "link": "https://www.fit.edu/faculty-profiles/k/kovats-jay/",
+        "description": "Functions and graphs, limits and continuity, derivatives of algebraic and trigonometric functions, chain rule; applications to maxima and minima, and to related rates. Exponential logarithmic, circular and hyperbolic functions: their inverses, derivatives and integrals."
+
+    },
+    {
+        "class": "Aplied Discrete Mathematics",
+        "id": "disc-math",
+        "grade": "A",
+        "semester": "Fall 2022",
+        "professor": "Dr. Nur",
+        "link": "https://sites.google.com/view/nasheennur/home",
+        "description": "Topics include positional and modular number systems, relations and their graphs, discrete functions, set theory, propositional and predicate logic, sequences, summations, mathematical induction and proofs by contradiction."
+
+    },
+    {
+        "class": "Computer Disciplines and Careers",
+        "id": "comp-career",
+        "grade": "A",
+        "semester": "Fall 2022",
+        "professor": "Dr. Slhoub",
+        "link": "https://www.linkedin.com/in/khaled-salhoub-43b9a083/",
+        "description": "Overviews computing-related disciplines and professional careers. Includes an overview of software engineering and computer science. Introduces the ethical, moral and legal implications of crafting software."
+
+    },
+    {
+        "class": "Fundamentals of Software Engineering 2",
+        "id": "fund-soft",
+        "grade": "B",
+        "semester": "Fall 2022",
+        "professor": "Dr. Stansifer",
+        "link": "https://cs.fit.edu/~ryan/",
+        "description": "Introduces the basic data structures and algorithms used in software design and implementation. Includes sorting and searching techniques."
+
+    },
+    {
+        "class": "Microeconomics",
+        "id": "econ",
+        "grade": "A",
+        "semester": "Fall 2022",
+        "professor": "Dr. Malkova",
+        "link": "https://www.malkova.net",
+        "description": "Introduces the neoclassical theory of price determination. Includes supply and demand analysis, production and cost theory, market structures, externalities and public goods, factor payments, income distribution and informational asymmetries."
+
+    }
+]
