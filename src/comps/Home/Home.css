@@ -21,3 +21,8 @@
     align-items: center;
 
 }
+
+#warning {
+    font-weight: bold;
+    color: red;
+}

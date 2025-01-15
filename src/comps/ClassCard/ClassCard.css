@@ -1,0 +1,46 @@
+.class-card {
+    background: #479e5c;
+    border-radius: 0.6em;
+    border: 1px solid white;
+    width: 30%;
+    text-align: center;
+    margin: 3em;
+    display: grid;
+    grid-template: 'title title'
+                    'grade grade'
+                    'sem prof';
+
+
+}
+
+.a-grade {
+
+}
+
+.b-grade {
+
+}
+
+.na-grade {
+
+}
+
+.a-grade, .b-grade, .na-grade {
+
+}
+
+.card-grade {
+    grid-area: grade;
+}
+
+.card-sem {
+    grid-area: sem;
+}
+
+.card-prof {
+    grid-area: prof;
+}
+
+.card-title {
+    grid-area: title;
+}

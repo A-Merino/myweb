@@ -7,8 +7,7 @@ import ClassCard from './../ClassCard/ClassCard.jsx'
 function CCHolder() {
   
 
-    const allClasses = ClassData
-    console.log(allClasses)
+    const allClasses = ClassData;
 
 
     return (
@@ -17,7 +16,7 @@ function CCHolder() {
         <div id="card-holder">
             {
                 allClasses.map(cla => {
-                    return <ClassCard data={cla}/>
+                    return <ClassCard data={cla} key={cla.id}/>
                 })
             }
 

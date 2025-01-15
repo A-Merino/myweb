@@ -15,10 +15,10 @@ function ClassCard(props) {
     return (
     <>
         <div className="class-card">
-            <h4>{props.data.class}</h4>
-            <p>Grade: <span className={gradeClass}>{props.data.grade}</span></p>
-            <p>{props.data.semester}</p>
-            <p><a href={props.data.link}>Professor: {props.data.professor}</a></p>
+            <h4 className="card-title">{props.data.class}</h4>
+            <p className="card-grade">Grade: <span className={gradeClass}>{props.data.grade}</span></p>
+            <p className="card-sem">{props.data.semester}</p>
+            <p className="card-prof"><a href={props.data.link}>Professor: {props.data.professor}</a></p>
 
         </div>
     </>
