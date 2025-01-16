@@ -7,18 +7,23 @@
 
 #home-main {
     display: flex;
-    width: 80%;
+    width: 100%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 0 20%;
 }
 
 #home-side {
     display: flex;
-    width: 20%;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 2em;
+    z-index: 3;
 
 }
 

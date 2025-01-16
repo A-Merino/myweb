@@ -2,14 +2,18 @@
     background: #7b7bc0;
     border-radius: 0.6em;
     border: 1px solid white;
-    width: 30%;
+    width: 25%;
+    margin: 3em 0;
     text-align: center;
-    margin: 3em;
     display: grid;
     grid-template: 'title title'
                     'grade grade'
                     'sem prof';
 
+}
+
+.class-card:hover {
+    cursor: pointer;
 }
     
 .a-grade {
@@ -52,4 +56,9 @@
 
 .card-title {
     grid-area: title;
+}
+
+.card-desc {
+    width: 80%;
+    margin: 0 auto 1em auto;
 }

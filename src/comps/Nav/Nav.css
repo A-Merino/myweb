@@ -9,10 +9,18 @@
 }
 
 #navbar li a {
-    border: 0.1em solid white;
+    border: 0.1em solid #7b7bc0;
     padding: 0.5em 1em;
     border-radius: 0.5em;
     text-decoration: none;
     color: #7b7bc0;
     background: white;
+    transition: 0.2s;
+}
+
+#navbar li a:hover {
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    transition: 0.2s;
+    box-shadow: 0.3em 0.2em 0em;
 }
