@@ -1,0 +1,13 @@
+[
+    {
+        "id": "1.1.0",
+        "type": "minor",
+        "date": "1/16/25",
+        "items": [
+            "Added Change Log",
+            "Added Settings button (not fully functional)",
+            "Added active page distinction on navigation bar",
+            "Fixed bug when clicking on link to professor in the course cards"
+        ]
+    }
+]

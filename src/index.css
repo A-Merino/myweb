@@ -6,6 +6,11 @@ body {
     font-family: Verdana, "Trebuchet MS", sans-serif;
 }
 
+:root {
+    --main-blue: #7b7bc0;
+    
+}
+
 #root {
     width: 100%;
     display: flex;
@@ -13,4 +18,12 @@ body {
     justify-content: center;
     flex-direction: column;
 
+}
+
+a {
+    color: #458fca;
+}
+
+a:visited {
+    color: #bd8adc;
 }

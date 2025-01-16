@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import './.css'
+import './QuickLink.css'
 
-function () {
+function QuickLink() {
 
     return (
         <>
@@ -9,4 +9,4 @@ function () {
     )
 }
 
-export default
+export default QuickLink

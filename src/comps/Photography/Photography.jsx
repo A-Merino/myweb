@@ -7,6 +7,7 @@ function Photography() {
     return (
         <>
             <Nav page={'Photography'}/>
+            <p>Nothing here at the moment...</p>
         </>
     )
 }

@@ -9,12 +9,9 @@
 }
 
 #navbar li a {
-    border: 0.1em solid #7b7bc0;
     padding: 0.5em 1em;
     border-radius: 0.5em;
     text-decoration: none;
-    color: #7b7bc0;
-    background: white;
     transition: 0.2s;
 }
 
@@ -23,4 +20,18 @@
     border-top-left-radius: 0;
     transition: 0.2s;
     box-shadow: 0.3em 0.2em 0em;
+}
+
+.nav-active a {
+    background: var(--main-blue);
+    color: white;
+    border: 0.1em solid white;
+    
+}
+
+.nav-inactive a {
+    border: 0.1em solid var(--main-blue);
+    color: var(--main-blue);
+    background: white;
+
 }

@@ -7,7 +7,7 @@ function Projects() {
     return (
         <>
         <Nav page={'Projects'}/>
-
+        <p>Nothing here at the moment...</p>
         </>
     )
 }

@@ -15,6 +15,7 @@
 .class-card:hover {
     cursor: pointer;
 }
+
     
 .a-grade {
     color: #00ad1a;
@@ -51,7 +52,12 @@
 }
 
 .card-prof a {
-    text-decoration: none;
+    color: #8df185;
+}
+
+.card-prof a:visited {
+    color: #f1a685;
+
 }
 
 .card-title {
