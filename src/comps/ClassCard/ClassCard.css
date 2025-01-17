@@ -52,11 +52,11 @@
 }
 
 .card-prof a {
-    color: #8df185;
+    color: var(--light-green);
 }
 
 .card-prof a:visited {
-    color: #f1a685;
+    color: var(--peach);
 
 }
 

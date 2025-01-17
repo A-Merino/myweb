@@ -1,5 +1,13 @@
 [
     {
+        "id": "1.1.1",
+        "type": "patch",
+        "date": "1/16/25",
+        "items": [
+            "Fixed bug where settings list was open on site load"
+        ]
+    },
+    {
         "id": "1.1.0",
         "type": "minor",
         "date": "1/16/25",

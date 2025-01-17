@@ -30,7 +30,8 @@ function Home() {
                 </div>
                 <div id="home-side">
                     <h4>Quick Links</h4>
-                    <h4>Widgets</h4>
+                    <ul>
+                    </ul>
                 </div>
             </div>
         </>
