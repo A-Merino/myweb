@@ -1,5 +1,14 @@
 [
     {
+        "id": "1.1.2",
+        "type": "patch",
+        "date": "1/21/25",
+        "items": [
+            "Update the settings bar styling",
+            "Adding styling for Light/Dark Mode toggle"
+        ]
+    },
+    {
         "id": "1.1.1",
         "type": "patch",
         "date": "1/16/25",

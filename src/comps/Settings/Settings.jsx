@@ -8,6 +8,7 @@ import {faGear} from '@fortawesome/free-solid-svg-icons/faGear'
 function Settings() {
 
     const [display, setDisplay] = useState(false);
+    const [checked, setChecked] = useState(true);
 
     // Changes between hidden and displayed state for the list
     const settingsClick = (event) => {
@@ -17,39 +18,17 @@ function Settings() {
             sl.style.display = "none";
 
         } else {
-            sl.style.display = "inline-block";
+            sl.style.display = "flex";
 
         }
         setDisplay(!display);
     }
 
-
-    // if (!display) {
-
-    //     return (
-    //         <>
-    //         <div onClick={settingsClick} id="settings-icon">
-    //             <FontAwesomeIcon className="gear-icon" icon={faGear}/>
-    //         </div>
-    //         </>
-    //     )
-    // } else {
-
-    //     return (
-    //         <>
-    //         <div id="settings-list">
-    //             <FontAwesomeIcon  className="gear-icon" onClick={settingsClick}  icon={faGear}/>
-    //             <ul>
-    //                 <li>
-    //                     <Link to="/changelog">Change Log</Link>
-    //                 </li>
-    //                 <li>Light/Dark Mode</li>
-    //             </ul>
-    //         </div>
-    //         </>
-    //     )
-
-    // }
+    const changeTheme = (event) => {
+        // console.log("CHanged theme")
+        setChecked(!checked)
+        console.log(event.target.checked)
+    }
 
     return (
             <>
@@ -59,7 +38,12 @@ function Settings() {
                     <li>
                         <Link to="/changelog">Change Log</Link>
                     </li>
-                    <li>Light/Dark Mode</li>
+                    <li>Light/Dark Mode
+                        <label className='switch'>
+                            <input className='mover' type='checkbox' checked={checked} onChange={changeTheme}/>
+                            <span id="slider"></span>
+                        </label>
+                    </li>
                 </ul>
             </div>
             </>
