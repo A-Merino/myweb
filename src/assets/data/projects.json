@@ -1,0 +1,11 @@
+[
+    {
+        "id": "web-app-proj-1",
+        "title": "Web Applications Project 1: Personal Portfolio",
+        "link": "/src/assets/statics/web-app-proj-1/index.html",
+        "linkloc": "local",
+        "description": [
+            "I was tasked with creating a personal portfolio using only HTML and CSS."
+        ]
+    }
+]

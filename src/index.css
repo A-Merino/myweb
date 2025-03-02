@@ -1,5 +1,5 @@
 body {
-	background: #131313;
+	background: var(--dark-back);
     color: white;
     width: 100%;
     overflow-x: hidden;
@@ -10,6 +10,9 @@ body {
     --main-blue: #7b7bc0;
     --light-green: #8df185;
     --peach: #f1a685;
+    --dark-back: #131313;
+    --dark-link: #458fca;
+    --dark-link-vis: #bd8adc;
 }
 
 #root {
@@ -22,9 +25,14 @@ body {
 }
 
 a {
-    color: #458fca;
+    color: var(--dark-link);
 }
 
 a:visited {
-    color: #bd8adc;
+    color: var(--dark-link-vis);
+}
+
+#root > #wap1-frame {
+    width: 100%;
+    margin: 0;
 }

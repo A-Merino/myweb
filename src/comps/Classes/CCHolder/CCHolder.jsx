@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './CCHolder.css'
-import ClassData from './../../assets/data/classes.json';
-import ClassCard from './../ClassCard/ClassCard.jsx'
+import ClassData from './../../../assets/data/classes.json';
+import ClassCard from './ClassCard/ClassCard.jsx'
 
 function CCHolder() {
   

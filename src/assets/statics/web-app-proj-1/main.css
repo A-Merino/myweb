@@ -1,0 +1,232 @@
+/*Styling for all html and body elements---------------------------------------------------------------------------------------*/
+html {
+    height: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, serif;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    
+}
+
+/*Random styling---------------------------------------------------------------------------------------------------------------*/
+
+input, label, textarea {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+p, #resume-container{
+    margin-right: 2em;
+}
+
+p a:hover {
+    text-decoration: none;
+}
+
+main {
+    margin-left: 1em;
+}
+
+
+/*Styling for all Header tags---------------------------------------------------------------------------------------------------*/
+
+h1 {
+    margin-left: 0.5em;
+}
+
+h2 {
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-style: bold;
+}
+
+h2:after {
+    content: '';
+    border-top: 0.2em solid #98aff2;
+    width: 4.5em;
+}
+
+#resume-container h5 {
+    margin: 1.2em 0 0 1em;
+
+}
+
+#resume-container h4 {
+    margin: 1.2em 0 0 0.5em;
+
+}
+
+header {
+    margin: 0;
+
+}
+
+header, footer {
+    background: linear-gradient(145deg, #98aff2, #8ae594);
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*Navigation styling------------------------------------------------------------------------------------------*/
+
+nav {
+    margin-bottom: 0.8em;
+}
+
+nav ul {
+    padding-left: 1em;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #272b32;
+    transition: 0.3s;
+    padding: 0.3em;
+    border-radius: 0.7em 0.7em 0 0.7em;
+    border: 0.1em solid #272b32;
+}
+
+nav ul li {
+    list-style: none;   
+    display: inline-block;
+    margin: 0.5em;
+}
+
+nav ul li a:hover {
+    transition: 0.3s;
+    color: #000;
+    border-radius: 0;
+    border: 0.1em solid #000;
+
+}
+
+/*Styling for the items under the Project header--------------------------------------------------------------------------*/
+
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    margin-top: 1em;
+}
+
+#project-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 0.3em;
+}
+
+.project-card {
+    width: 30%;
+}
+
+.proj-img {
+    width: 100%;
+    border: 1px black solid;
+}
+
+.proj-img:hover {
+    box-shadow: black  0.25em 0.25em 0.25em 0.1em;
+}
+
+
+
+/*Footer content styling---------------------------------------------------------------------------------------*/
+
+footer {
+    align-items: center;
+}
+
+footer div {
+}
+
+footer div ul {
+    display: flex;
+    margin: 1em 0 0 0;
+}
+
+footer div ul li {
+    list-style: none;
+    margin: 0 1em;
+
+}
+
+footer div ul li a{
+    color: #000;
+
+}
+
+.main-footer {
+    margin: 1em 0 0 0;
+}
+
+.copyright p{
+    margin-right: 0;
+}
+
+/*Media Query styling for devices smaller than 768px------------------------------------------------------------------------------- */
+
+@media (max-width: 768px) {
+
+    header nav ul li {
+        display: block;
+        margin: 0.2em 0.5em;
+        padding: 0.2em;
+
+    }
+
+    header nav ul li a {
+        display: block;
+    }
+
+    #project-container {
+        display: block;
+    }
+
+    .project-card {
+        margin: 4em auto 0 auto;
+        width: 95%;
+    }
+
+/* Footer -------------------------------------------------------------   */
+
+    .main-footer ul li:before {
+        content: "> ";
+        color: #000;
+
+    }
+
+    .social-media {
+        border-top: 1px black solid;
+        margin-top: 1em;
+    }
+
+    footer div ul {
+        display: block;
+        padding: 0;
+    }
+
+    footer div ul li {
+        margin: 1em;
+    }
+
+    footer div {
+        width: 100%;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+}

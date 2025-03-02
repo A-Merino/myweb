@@ -19,7 +19,7 @@ function Nav(props) {
                         <Link to="/pics">Photography</Link>                    
                     </li>
                     <li className='nav-inactive'>
-                        <Link to="/projs">Projects</Link>
+                        <Link to="/projects">Projects</Link>
                     </li>
                 </ul>
             </nav>
@@ -41,7 +41,7 @@ function Nav(props) {
                         <Link to="/pics">Photography</Link>                    
                     </li>
                     <li className='nav-inactive'>
-                        <Link to="/projs">Projects</Link>
+                        <Link to="/projects">Projects</Link>
                     </li>
                 </ul>
             </nav>
@@ -62,7 +62,7 @@ function Nav(props) {
                         <Link to="/pics">Photography</Link>                    
                     </li>
                     <li className='nav-inactive'>
-                        <Link to="/projs">Projects</Link>
+                        <Link to="/projects">Projects</Link>
                     </li>
                 </ul>
             </nav>
@@ -83,7 +83,7 @@ function Nav(props) {
                         <Link to="/pics">Photography</Link>                    
                     </li>
                     <li className="nav-active">
-                        <Link to="/projs">Projects</Link>
+                        <Link to="/projects">Projects</Link>
                     </li>
                 </ul>
             </nav>
@@ -104,7 +104,7 @@ function Nav(props) {
                         <Link to="/pics">Photography</Link>                    
                     </li>
                     <li className="nav-inactive">
-                        <Link to="/projs">Projects</Link>
+                        <Link to="/projects">Projects</Link>
                     </li>
                 </ul>
             </nav>
