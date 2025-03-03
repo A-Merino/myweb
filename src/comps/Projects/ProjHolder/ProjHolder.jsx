@@ -7,7 +7,7 @@ function ProjHolder() {
     return (
         <>
             <div id="proj-holder">
-                <ProjCard/>
+                {/*<ProjCard/>*/}
             </div>
         </>
     )
