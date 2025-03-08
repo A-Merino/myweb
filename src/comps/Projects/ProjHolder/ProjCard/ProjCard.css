@@ -1,21 +1,33 @@
 .project-card {
-    width: 40%;
+    display: flex;
+
+
+    width: 60%;
     border: 2px solid white;
-    border-radius: 1.5em;
+    border-radius: 0 1.5em 1.5em 0;
 
 }
 
-.project-card iframe {
-    object-fit: cover;
-    border: none;
-    border-bottom: solid 2px white;
+.project-card :hover {
+    cursor: pointer;
+}
+
+.project-card img {
     overflow: hidden;
-    width: 100%;
-    border-radius: 1.5em 1.5em 0 0;
+    max-width: 50%;
+    height: auto;
 }
 
-.project-card h4 {
+.pc-words h4 {
+    font-size: 1.4vw;
+    display: block;
+    text-decoration: underline;
+}
 
+.pc-words h4:after {
+    content: "";
+    border-top: solid white 4px;
+    width: 100%;
 }
 
 .project-card p {
@@ -24,4 +36,12 @@
 
 .project-card h4, .project-card p, .project-card a {
     margin: 1em 1%; 
+}
+
+
+.pc-words {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    width: 44%;
 }

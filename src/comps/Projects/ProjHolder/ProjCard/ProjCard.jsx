@@ -1,17 +1,26 @@
 import { useState } from 'react'
 import './ProjCard.css'
-import {Link} from 'react-router'
+import {Link, useNavigate} from 'react-router'
+
+
 
 function ProjCard(props) {
+    let nav = useNavigate();
 
-            // <img src=""/>
+    const goToProj = () => {
+        nav(props.data.link);
+    }    
+
     return (
         <>
-        <div className="project-card">
-        <iframe src="https://alexmerino.net" scrolling='no'></iframe>
-            <h4>I am a Project</h4>
-            <Link to="/projects/web-app-proj-1">Link</Link>    
-            <p>Thing</p>
+        <div onClick={goToProj} className="project-card">
+            <img src={props.data.image}/>
+            <div className='pc-words'>
+                <h4>{props.data.title}</h4>
+                <p><strong>Class:</strong> {props.data.class}</p>     
+                <p><strong>Date:</strong> {props.data.when}</p>     
+                <p>{props.data.description}</p>
+            </div>
         </div>
         </>
     )

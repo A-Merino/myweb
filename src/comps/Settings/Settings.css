@@ -26,7 +26,7 @@
 
 #settings-list li {
     text-decoration: none;
-    border: 1px solid black;
+/*    border: 1px solid black;*/
     width: 100%;
     padding: 0.5em 0;
     text-align: center;
@@ -39,8 +39,15 @@
 #settings-list a {
     width: 100%;
     height: 100%;
+    color: white;
     display: inline-block;
+    transition: 0.3s;
     
+}
+
+#settings-list a:hover {
+    color: #ddd;
+    transition: 0.3s;
 }
 
 /*LIGHT MODE SLIDER ------------------------------------------------------*/

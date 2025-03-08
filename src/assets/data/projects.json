@@ -1,11 +1,11 @@
 [
     {
-        "id": "web-app-proj-1",
-        "title": "Web Applications Project 1: Personal Portfolio",
-        "link": "/src/assets/statics/web-app-proj-1/index.html",
-        "linkloc": "local",
-        "description": [
-            "I was tasked with creating a personal portfolio using only HTML and CSS."
-        ]
+        "id": "dlp1",
+        "title": "Predicting Market Values of Premier League Players",
+        "class": "Deep Learning",
+        "link": "/projects/prem-market-value",
+        "image":"/projects/dlp1/teaser.png",
+        "when": "October 2024",
+        "description": "Using neural networks to find under/over valued soccer players with the goal to aid a club's decision making process while purchasing players."
     }
 ]

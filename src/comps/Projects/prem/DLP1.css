@@ -1,0 +1,14 @@
+#dlp1-all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+#red {
+    color: #ff9999;
+}
+
+.green {
+    color: #aaffaa;
+}

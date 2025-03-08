@@ -5,7 +5,7 @@ import Home from './../Home/Home.jsx';
 import Classes from './../Classes/Classes.jsx';
 import Photography from './../Photography/Photography.jsx';
 import Projects from './../Projects/Projects.jsx';
-import WAP1 from './../Projects/web-app-proj-1/WAP1.jsx';
+import DLP1 from './../Projects/prem/DLP1.jsx';
 import ProjHolder from './../Projects/ProjHolder/ProjHolder.jsx';
 
 import Settings from './../Settings/Settings.jsx';
@@ -25,7 +25,7 @@ function App() {
                 <Route path='/pics' element={<Photography/>}/>
                 <Route path='/projects' element={<Projects/>}>
                     <Route index element={<ProjHolder/>}/>
-                    <Route path='web-app-proj-1' element={<WAP1/>}/>
+                    <Route path='prem-market-value' element={<DLP1/>}/>
                 </Route>
                 <Route path='/changelog' element={<ChangeLog/>}/>       
             </Routes>

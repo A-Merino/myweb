@@ -38,12 +38,12 @@ function Settings() {
                     <li>
                         <Link to="/changelog">Change Log</Link>
                     </li>
-                    <li>Light/Dark Mode
+                    {/*<li>Light/Dark Mode
                         <label className='switch'>
                             <input className='mover' type='checkbox' checked={checked} onChange={changeTheme}/>
                             <span id="slider"></span>
                         </label>
-                    </li>
+                    </li>*/}
                 </ul>
             </div>
             </>

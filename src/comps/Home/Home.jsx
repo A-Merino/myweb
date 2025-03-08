@@ -15,7 +15,7 @@ function Home() {
                     <p>Hey there! My name is Alex Merino and I'd personally like to welcome you to my website. It's kind of a mess right now but my plan is to try and update it with new features or information at least once a week, time abiding.</p>
                     <h3>About me</h3>
                     <p>I am a Senior at Florida Institute of Technology studying Computer Science (along with a Computational Mathematics Minor). I also do research with <a href="https://www.ryantwhite.com">Dr. White</a> and the <a href='https://research.fit.edu/nets/'>NEural TransmissonS</a> (NETS) lab at Florida Tech.</p>
-                    <p>Other work experience you ask? I do math tutoring for middle and high schoolers at <a href="https://www.spacecoastacademics.com">Space Coast Academics LLC (SCA)</a>. Some of the subjects I tutor are Calculus, Geometry, and Algebra. I also did soccer refereeing from 2019 to 2024.</p>
+                    <p>Other work experience you ask? I do math tutoring for middle and high schoolers at <a href="https://www.spacecoastacademics.com">Space Coast Academics LLC</a> (SCA). Some of the subjects I tutor are Calculus, Geometry, and Algebra. I also did soccer refereeing from 2019 to 2024.</p>
                     <p></p>
 
                     <h3>What am I up to right now?</h3>
