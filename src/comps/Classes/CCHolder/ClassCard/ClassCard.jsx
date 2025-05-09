@@ -12,6 +12,8 @@ function ClassCard(props) {
         gradeClass = 'a-grade'; 
     } else if (props.data.grade === "B") {
         gradeClass = "b-grade";
+    } else if (props.data.grade === "C") {
+        gradeClass = "c-grade";
     }
   
     // Flips the class card from grade to description or vice versa

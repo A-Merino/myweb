@@ -26,11 +26,15 @@
     color: #95d84e;
 }
 
+.c-grade {
+    color: #f9d82b;
+}
+
 .na-grade {
     color: #606060;
 }
 
-.a-grade, .b-grade, .na-grade {
+.a-grade, .b-grade, .na-grade, .c-grade  {
     font-size: 2em;
     font-weight: bold;
     padding-left: 0.3em;

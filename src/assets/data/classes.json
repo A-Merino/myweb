@@ -1,8 +1,49 @@
 [
     {
+        "class": "Senior Project 2",
+        "id": "senior-proj-2",
+        "grade": "N/A",
+        "semester": "Fall 2025",
+        "professor": "Dr. Chan",
+        "link": "https://cs.fit.edu/~pkc/",
+        "description": "A two-semester, senior-year project sequence that serves as the capstone for the project-intensive courses in computer science. Students work in teams to implement a software project from conception to completion."
+
+    },{
+        "class": "Database Systems",
+        "id": "databases",
+        "grade": "N/A",
+        "semester": "Fall 2025",
+        "professor": "Dr. Nematzadeh",
+        "link": "https://www.fit.edu/faculty-profiles/n/nematzadeh-zahra/",
+        "description": "Introduces the fundamentals of computer database systems. Includes a review of file structures, concepts of database design, functional units of a typical database system and application of database concepts to real-world problems."
+    },{
+        "class": "Analysis of Algorithms (Graduate)",
+        "id": "algorithms",
+        "grade": "N/A",
+        "semester": "Fall 2025",
+        "professor": "Dr. Mohan",
+        "link": "https://appstate.digication.com/raghuveer_mohan/about-me",
+        "description": "Presents time and space complexity of computer algorithms. Includes algorithm classes, such as divide-and-conquer, greedy, dynamic programming and backtracking; techniques for solving recurrence equations; graph algorithms; searching and sorting; and deterministic and nondeterministic polynomial time problem classes."
+    },{
+        "class": "Formal Languages and Automata Theory",
+        "id": "form-lang",
+        "grade": "N/A",
+        "semester": "Fall 2025",
+        "professor": "Dr. Bernhard",
+        "link": "https://cs.fit.edu/~pbernhar/",
+        "description": "Presents abstract models of computers (finite automata, pushdown automata and Turing machines) and the language classes they recognize or generate (regular, context-free and recursively enumerable). Also presents applications of these models to compiler design, algorithms and complexity theory."
+    },{
+        "class": "Software Testing 1",
+        "id": "soft-testing",
+        "grade": "N/A",
+        "semester": "Fall 2025",
+        "professor": "Dr. Slhoub",
+        "link": "https://www.linkedin.com/in/khaled-salhoub-43b9a083",
+        "description": "Explores functional (black box) methods for testing software systems, reporting problems effectively and planning testing projects. Students apply what they have learned throughout the course to a sample application that is commercially available or under development. The choice of sample application changes from term to term."
+    },{
         "class": "Senior Project 1",
         "id": "senior-proj-1",
-        "grade": "N/A",
+        "grade": "A",
         "semester": "Spring 2025",
         "professor": "Dr. Chan",
         "link": "https://cs.fit.edu/~pkc/",
@@ -11,7 +52,7 @@
     },{
         "class": "Computer Architecture and Assembly Programming",
         "id": "comp-arch-assembly",
-        "grade": "N/A",
+        "grade": "A",
         "semester": "Spring 2025",
         "professor": "Dr. Silaghi",
         "link": "https://cs.fit.edu/~msilaghi/",
@@ -19,7 +60,7 @@
     },{
         "class": "Programming Language Concepts",
         "id": "plc",
-        "grade": "N/A",
+        "grade": "B",
         "semester": "Spring 2025",
         "professor": "Dr. Mohan",
         "link": "https://appstate.digication.com/raghuveer_mohan/about-me",
@@ -27,7 +68,7 @@
     },{
         "class": "Numerical Analysis",
         "id": "num-al",
-        "grade": "N/A",
+        "grade": "C",
         "semester": "Spring 2025",
         "professor": "Dr. Liu",
         "link": "https://sites.google.com/view/pei-liu/home",
@@ -35,7 +76,7 @@
     },{
         "class": "General Chemistry 2",
         "id": "chem-2",
-        "grade": "N/A",
+        "grade": "A",
         "semester": "Spring 2025",
         "professor": "Dr. Smith",
         "link": "https://scholar.google.com/citations?hl=en&user=V-d4gEEAAAAJ",
@@ -43,7 +84,7 @@
     },{
         "class": "General Chemistry Laboratory 2",
         "id": "chem-lab-2",
-        "grade": "N/A",
+        "grade": "A",
         "semester": "Spring 2025",
         "professor": "Dr. Smith",
         "link": "https://scholar.google.com/citations?hl=en&user=V-d4gEEAAAAJ",
@@ -149,7 +190,7 @@
 
     },
     {
-        "class": "Civilization 2:  Renaissance to Modern",
+        "class": "Civilization 2: Renaissance to Modern",
         "id": "civ-2",
         "grade": "A",
         "semester": "Spring 2024",
