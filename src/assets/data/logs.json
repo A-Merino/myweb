@@ -1,5 +1,22 @@
 [
     {
+        "id": "1.2.2",
+        "type": "patch",
+        "date": "5/13/25",
+        "items": [
+            "Final grades for Spring 2025 added",
+            "Began addition of Numerical Analysis Programming assignments to Projects Page"
+
+        ]
+    },{
+        "id": "1.2.1",
+        "type": "patch",
+        "date": "5/8/25",
+        "items": [
+            "Updated grades and added Fall 2025 classes"
+
+        ]
+    },{
         "id": "1.2.0",
         "type": "minor",
         "date": "3/8/25",

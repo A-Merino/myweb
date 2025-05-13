@@ -7,5 +7,39 @@
         "image":"/projects/dlp1/teaser.png",
         "when": "October 2024",
         "description": "Using neural networks to find under/over valued soccer players with the goal to aid a club's decision making process while purchasing players."
+    },{
+        "id": "num-al-1",
+        "title": "Numerical Analysis Program 1: Multivariable Newton's GPS",
+        "class": "Numerical Analysis",
+        "link": "/projects/numerical/program1",
+        "image":"/projects/num-al/proj1.png",
+        "when": "February 2025",
+        "description": "Using Multivariable Newton's Method and Gauss-Newton Method, we were tasked with estimating the location of a GPS tracker on Earth using the location of satellites."
+    },{
+        "id": "num-al-2",
+        "title": "Numerical Analysis Program 2: Trigonometric Interpolation",
+        "class": "Numerical Analysis",
+        "link": "/projects/numerical/program2",
+        "image":"/projects/num-al/proj2.png",
+        "when": "February 2025",
+        "description": "Given two popular functions, use polynomial fitting and trigonometric interpolation with Fast Fourier Transforms to interpolate while comparing errors."
+    },{
+        "id": "num-al-3",
+        "title": "Numerical Analysis Program 3: Poisson-Boltzmann Equation",
+        "class": "Numerical Analysis",
+        "link": "/projects/numerical/program3",
+        "image":"/projects/num-al/proj3.png",
+        "when": "March 2025",
+        "description": "Given the Poisson-Boltzmann Equation, we were asked to solve it numerically using the finite difference and finite element methods."
+    },{
+        "id": "num-al-4",
+        "title": "Numerical Analysis Program 4: Heat, Wave and Elliptic Equations",
+        "class": "Numerical Analysis",
+        "link": "/projects/numerical/program4",
+        "image":"/projects/num-al/proj4.png",
+        "when": "May 2025",
+        "description": "Given a certain Heat, Wave, and Elliptic equation, use iterative methods such as finite difference and forward difference to numericaly solve them."
     }
+
+
 ]
