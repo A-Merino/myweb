@@ -19,9 +19,10 @@ function Home() {
                     <p></p>
 
                     <h3>What am I up to right now?</h3>
-                    <p>Currently, I am taking 6 classes at Florida Tech, one of them being my two semester long Senior Project. The goal of the project is to build a web application which houses a centralized location to fill out certain registrar forms at Florida Tech. The link <a href="https://a-merino.github.io/FormBusterSite/">here</a> houses our documents for the project and our progress each month.</p>    
-                    <p>I am also currently working on applying <a href="https://en.wikipedia.org/wiki/Information_theory">information theory</a> to convolutional neural networks to reduce redundancy in models. This is part of the explainable AI research through Dr. White's lab at Florida Tech.</p>
-                    <p>Along with the above I am also working with SCA to run educational Lego classes as well as teaching a beginner Python coding class to middle schoolers once a week.</p> 
+                    <p>Currently, I am on my last summer break ever :(. I am planning to continuously update this website over the summer and add more projects to my projects page. Make this page much nicer, add some stuff to the photography page. That's what I love about websites, there are infinite possibilities and there are so many ways to do it. Speaking of websites, my Senior Desgin Project is about halfway done. The goal of the project is to build a web application which houses a centralized location to fill out certain registrar forms at Florida Tech. The link <a href="https://a-merino.github.io/FormBusterSite/">here</a> houses our documents for the project and our progress each month.</p>    
+                    <p>Another extremely fun project I am working on is a statistic tracker for the game Marvel Rivals. Using an API, I will be able to pull, store, and display data on this website! Using the data maybe I'll be able to do some machine learning tasks to try and decipher how the MVP/SVP awards are given out.</p>
+                    <p>My <a href="https://en.wikipedia.org/wiki/Information_theory">information theory</a> research has come to a close for the semester, but there is plenty more work that needs to be done in the Fall to reduce redundancy in convolutional neural network models. This is part of the explainable AI research through Dr. White's lab at Florida Tech.</p>
+                    <p>As for SCA, I finished the Lego and Python classes, since I am not around for the summer, but I plan to continue working there in the Fall once school starts up again.</p> 
 
                     <h3>Interests</h3>
                     

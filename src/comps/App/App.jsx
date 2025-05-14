@@ -30,6 +30,13 @@ function App() {
                     <Route path='numerical/program2' element={<Soon/>}/>
                     <Route path='numerical/program3' element={<Soon/>}/>
                     <Route path='numerical/program4' element={<Soon/>}/>
+                    <Route path='sci-comp/program1' element={<Soon/>}/>
+                    <Route path='sci-comp/program2' element={<Soon/>}/>
+                    <Route path='sci-comp/program3' element={<Soon/>}/>
+                    <Route path='sci-comp/program4' element={<Soon/>}/>
+                    <Route path='sci-comp/program5' element={<Soon/>}/>
+                    <Route path='sci-comp/program6' element={<Soon/>}/>
+                    <Route path='computer-networks' element={<Soon/>}/>
                     
                 </Route>
                 <Route path='/changelog' element={<ChangeLog/>}/>       

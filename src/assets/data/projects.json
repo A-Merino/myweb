@@ -39,6 +39,62 @@
         "image":"/projects/num-al/proj4.png",
         "when": "May 2025",
         "description": "Given a certain Heat, Wave, and Elliptic equation, use iterative methods such as finite difference and forward difference to numericaly solve them."
+    },{
+        "id": "comp-net",
+        "title": "Computer Networks Final",
+        "class": "Computer Networks",
+        "link": "/projects/computer-netwroks",
+        "image":"/projects/singular/comp-net.png",
+        "when": "November 2024",
+        "description": "Given a communication network, create a graph data structure and replicate information passing by using shortest-path algorithms such as Dijkstra's algorithm and the Bellman-Ford algorithm."
+    },{
+        "id": "sci-comp-1",
+        "title": "Scientific Computing Program 1: Plotting functions",
+        "class": "Scientific Computing",
+        "link": "/projects/sci-comp/program1",
+        "image":"/projects/sci-comp/prog1.png",
+        "when": "September 2024",
+        "description": "Given two equations of the same function, plot them at different step values, then check if the calculation is consistent with the limit of the function."
+    },{
+        "id": "sci-comp-2",
+        "title": "Scientific Computing Program 2: Newton's method and Gauss Elimination",
+        "class": "Scientific Computing",
+        "link": "/projects/sci-comp/program2",
+        "image":"/projects/sci-comp/prog2.png",
+        "when": "September 2024",
+        "description": "Given a function of x, use Newton's Method to find all roots. Then given a Hilbert matrix, use Gauss Elimination to solve the system."
+    },{
+        "id": "sci-comp-3",
+        "title": "Scientific Computing Program 3: Solving Linear Systems",
+        "class": "Scientific Computing",
+        "link": "/projects/sci-comp/program3",
+        "image":"/projects/sci-comp/prog3.png",
+        "when": "October 2024",
+        "description": "Given a tridiagonal matrix, use different methods and algorithms (Thomas, Jacobi, Gauss-Seidel) to solve a system."
+    },{
+        "id": "sci-comp-4",
+        "title": "Scientific Computing Program 4: Interpolation",
+        "class": "Scientific Computing",
+        "link": "/projects/sci-comp/program4",
+        "image":"/projects/sci-comp/prog4.png",
+        "when": "November 2024",
+        "description": "Given a function based on an input number, use Chebyshev interpolation to interpolate the function. Given another function, use cubic splines to interpolate."
+    },{
+        "id": "sci-comp-5",
+        "title": "Scientific Computing Program 5: Initial Value Problems",
+        "class": "Scientific Computing",
+        "link": "/projects/sci-comp/program5",
+        "image":"/projects/sci-comp/prog5.png",
+        "when": "November 2024",
+        "description": "Given an initial value problem (IVP), use different methods (Euler's, Adam-Bashforth, Trapezoid) to numerically solve the system."
+    },{
+        "id": "sci-comp-6",
+        "title": "Scientific Computing Program 6: Stochastic Modeling and the Langevin Equation",
+        "class": "Scientific Computing",
+        "link": "/projects/sci-comp/program6",
+        "image":"/projects/sci-comp/prog6.png",
+        "when": "December 2024",
+        "description": "Using a biased random walk problem, simulate the probability of achieving a goal. Given a Langevin equation, use iterative methods to solve."
     }
 
 

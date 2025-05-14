@@ -1,5 +1,15 @@
 [
     {
+        "id": "1.3.0",
+        "type": "minor",
+        "date": "5/14/25",
+        "items": [
+            "Addition of more projects to the Projects Page",
+            "Modified Project Page to allow for two projects per row",
+            "Updated the Home page to be current"
+
+        ]
+    },{
         "id": "1.2.2",
         "type": "patch",
         "date": "5/13/25",
