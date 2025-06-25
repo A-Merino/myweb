@@ -10,6 +10,7 @@ import ProjHolder from './../Projects/ProjHolder/ProjHolder.jsx';
 import Soon from './../Projects/Soon/Soon.jsx';
 import Settings from './../Settings/Settings.jsx';
 import ChangeLog from './../ChangeLog/ChangeLog.jsx';
+import Rivals from './../Rivals/Rivals.jsx';
 import {Link} from 'react-router';
 
 function App() {
@@ -39,7 +40,9 @@ function App() {
                     <Route path='computer-networks' element={<Soon/>}/>
                     
                 </Route>
-                <Route path='/changelog' element={<ChangeLog/>}/>       
+                <Route path='/changelog' element={<ChangeLog/>}/>
+                <Route path='/rivals' element={<Rivals/>}/>
+
             </Routes>
         </BrowserRouter>
         </>
