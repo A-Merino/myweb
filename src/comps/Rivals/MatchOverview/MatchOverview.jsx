@@ -7,25 +7,25 @@ function MatchOverview(props) {
 
     const matchid = Object.keys(props.data)[0];
 
-    const data = props.data[matchid]
+    const data = props.data[matchid];
 
 
     const changeDisp = (e) => {
-        e.preventDefault()
-        setClick(!click)
-    }
+        e.preventDefault();
+        setClick(!click);
+    };
 
 
     const printed = () => {
         // have to multiply by 1000 since javascript likes milliseconds
-        const date = new Date(parseInt(matchid.split('_')[1]) * 1000)
-        return date.toLocaleString()
+        const date = new Date(parseInt(matchid.split('_')[1]) * 1000);
+        return date.toLocaleString();
     } 
 
     if (click) {
         return (
             <>
-                <div className='match-deets' onclick={changeDisp}>
+                <div className='match-deets' onClick={changeDisp}>
                     
                     <table>
                         <thead>

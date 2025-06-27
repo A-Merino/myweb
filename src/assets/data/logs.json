@@ -1,5 +1,24 @@
 [
     {
+        "id": "2.1.0",
+        "type": "minor",
+        "date": "6/26/25",
+        "items": [
+            "Added checkboxes with names of players which will sort if player is in match or not",
+            "Fixed bug where table would not disappear when clicked"
+
+        ]
+    },{
+        "id": "2.0.0",
+        "type": "major",
+        "date": "6/25/25",
+        "items": [
+            "Began the creation of the Marvel Rivals Stat Tracker (/rivals)",
+            "Added sorting to the list of matches",
+            "Started formatting of the table of stats for each match"
+
+        ]
+    },{
         "id": "1.3.0",
         "type": "minor",
         "date": "5/14/25",
