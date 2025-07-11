@@ -86,7 +86,7 @@ function Rivals() {
                 {
                     uids.map(uid => {
                         return (
-                            <label><input onClick={filter} id={uid.uid} type="checkbox"/>{uid.user}</label>
+                            <label><input onClick={filter} key={uid.uid} id={uid.uid} type="checkbox"/>{uid.user}</label>
                             )
                     })
                 }

@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import './MatchOverview.css'
+import {faX} from '@fortawesome/free-solid-svg-icons/faX'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
 function MatchOverview(props) {
 
@@ -22,15 +24,38 @@ function MatchOverview(props) {
         return date.toLocaleString();
     } 
 
+    const detWinner = () => {
+        const pdata = data.players[0][Object.keys(data.players[0])[0]];
+
+        const itself = document.getElementById(matchid);
+         if (pdata.team === 0 && pdata.won === 1) {
+            return <span className="ta">Team A</span>
+        } else if (pdata.team === 1 && pdata.won === 0) {
+            return <span className="ta">Team A</span>
+        } else if (pdata.team === 1 && pdata.won === 1) {
+            // itself.querySelector('span').style.color = ;
+            return <span className="tb">Team B</span>
+        } else {
+            // itself.querySelector('span').style.color = ;
+            return <span className="tb">Team B</span>
+        }
+    }
+
     if (click) {
         return (
             <>
-                <div className='match-deets' onClick={changeDisp}>
-                    
-                    <table>
+                <div className='match-deets' id={matchid}>
+                    <div className='match-head'>
+                        <p>Game Mode: {data.game_mode}</p>
+                        <p>Match Winner: {detWinner()}</p>
+                    <div className='close-table' onClick={changeDisp}>
+                        <FontAwesomeIcon icon={faX} />
+                    </div>
+                    </div>
+                    <table className='team-a'>
                         <thead>
                             <tr>
-                                <td>Username</td>
+                                <td>Team A</td>
                                 <td>Hero</td>
                                 <td>KOs</td>
                                 <td>Deaths</td>
@@ -60,10 +85,10 @@ function MatchOverview(props) {
                             })}
                         </tbody>
                     </table>
-                    <table>
+                    <table className='team-b'>
                         <thead>
                             <tr>
-                                <td>Username</td>
+                                <td>Team B</td>
                                 <td>Hero</td>
                                 <td>KOs</td>
                                 <td>Deaths</td>
@@ -102,7 +127,7 @@ function MatchOverview(props) {
     } else {
         return (
             <>
-            <div className='thin-view' onClick={changeDisp}>
+            <div className='thin-view' id={matchid} onClick={changeDisp}>
                 <p>Match ID: {matchid}</p>
                 <p>{printed()}</p>
             </div>

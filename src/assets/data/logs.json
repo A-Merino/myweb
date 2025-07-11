@@ -1,5 +1,15 @@
 [
     {
+        "id": "2.2.0",
+        "type": "minor",
+        "date": "7/11/25",
+        "items": [
+            "Removed functionality of checkboxes for current patch while new sorting system is being implemented (/rivals)",
+            "Major UI fix to allow for clearer viewing of separate matches (/rivals)",
+            "Added a clear close button on tables (/rivals)"
+
+        ]
+    },{
         "id": "2.1.0",
         "type": "minor",
         "date": "6/26/25",

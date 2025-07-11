@@ -1,3 +1,94 @@
 .match-deets {
     z-index: 4;
+    background: #37384c;
+    width: 100%;
+
+    margin-bottom: 1em;
+    padding: 0 4em;
+    
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 1.25em;
+}
+
+.match-head {
+    padding: 0.5em 0;
+}
+
+.match-deets td {
+    padding: 1em;
+    text-align: center;
+}
+
+.match-deets table {
+    border-spacing: 0;
+    border:5px solid black;
+
+    margin-bottom: 1em;
+
+}
+
+.match-deets p {
+    display: inline-block;
+
+    margin-right: 1.5em;
+}
+
+.ta {
+    color:#3d3de5;
+}
+.tb {
+    color:#eb3f3f;
+}
+.team-a {
+}
+
+.team-b {
+}
+
+.team-a thead{
+    background: #3d3de5;
+}
+
+.team-b thead{
+    background: #eb3f3f;
+}
+
+.match-deets tr td:first-child{
+    text-align: left;
+}
+
+.match-deets table thead tr td {
+    border-bottom: white 2px solid;
+}
+
+.close-table {
+    position: relative;
+    float: right;
+}
+
+.close-table:hover {
+    cursor: pointer;
+}
+
+.close-table svg {
+    border: 3px solid black;
+    border-radius: 0.5em;
+
+    display: inline-block;
+    vertical-align: 0;
+    padding: 0.5em;
+
+    font-size: 1.25em;
+}
+
+
+.thin-view {
+    border: solid 4px white;
+    border-radius: 1em;
+
+    margin-bottom: 1em;
+
+
 }
