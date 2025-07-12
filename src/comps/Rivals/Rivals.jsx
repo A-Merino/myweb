@@ -9,6 +9,7 @@ function Rivals() {
     const uids = UIDS;
     let matchdata = Matches;
     matchdata.sort(compare);
+    matchdata.reverse();
 
     const [shown, setShown] = useState(matchdata);
     const [players, modPlayers] = useState([false,false,false,false,false,false]);
@@ -17,55 +18,55 @@ function Rivals() {
         console.log(e)
         const matches = []
         const pp = []
-        // uids.map(uid => {
-
-        //     const cl = document.getElementById(uid.user);
-
-
-        //     if (cl.checked === true) {
-        //         pp.push(cl);
-
-        //         matchdata.map(match => {
-        //             const matchid = Object.keys(match)[0];
-        //             if (match[matchid].uids.includes(uid.uid.toString()) && !(matches.includes(match))) {
-        //                 matches.push(match);
-
-        //             }
-
-        //         });
-        //     }
-        // });
-
         uids.map(uid => {
 
             const cl = document.getElementById(uid.uid);
 
+
             if (cl.checked === true) {
                 pp.push(cl);
+
+                matchdata.map(match => {
+                    const matchid = Object.keys(match)[0];
+                    if (match[matchid].uids.includes(uid.uid.toString()) && !(matches.includes(match))) {
+                        matches.push(match);
+
+                    }
+
+                });
             }
         });
 
+        // uids.map(uid => {
+
+        //     const cl = document.getElementById(uid.uid);
+
+        //     if (cl.checked === true) {
+        //         pp.push(cl);
+        //     }
+        // });
 
 
-        for (const match in matchdata) {
-            let fact = true;
-            const matchid = Object.keys(match)[0];
 
-            for (const pl in pp) {
-                if (!(match[matchid].uids.includes(pl.id))){
-                    fact = false;
+        // for (const match in matchdata) {
+        //     let fact = true;
+        //     const matchid = Object.keys(match)[0];
+
+        //     for (const pl in pp) {
+        //         if (!(match[matchid].uids.includes(pl.id))){
+        //             fact = false;
                     
-                }
-            }
+        //         }
+        //     }
 
-            if (fact) {
-                matches.push(match);
+        //     if (fact) {
+        //         matches.push(match);
 
-            }
+        //     }
 
 
 
-        } 
+        // } 
         
 
         if (matches.length === 0) {
@@ -86,7 +87,7 @@ function Rivals() {
                 {
                     uids.map(uid => {
                         return (
-                            <label><input onClick={filter} key={uid.uid} id={uid.uid} type="checkbox"/>{uid.user}</label>
+                            <label className={uid.name}><input onClick={filter} key={uid.uid} id={uid.uid} type="checkbox"/>{uid.user}</label>
                             )
                     })
                 }

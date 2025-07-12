@@ -2,6 +2,8 @@ import { useState } from 'react'
 import './MatchOverview.css'
 import {faX} from '@fortawesome/free-solid-svg-icons/faX'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import Row from './Row/Row.jsx'
+
 
 function MatchOverview(props) {
 
@@ -33,10 +35,8 @@ function MatchOverview(props) {
         } else if (pdata.team === 1 && pdata.won === 0) {
             return <span className="ta">Team A</span>
         } else if (pdata.team === 1 && pdata.won === 1) {
-            // itself.querySelector('span').style.color = ;
             return <span className="tb">Team B</span>
         } else {
-            // itself.querySelector('span').style.color = ;
             return <span className="tb">Team B</span>
         }
     }
@@ -67,20 +67,9 @@ function MatchOverview(props) {
                         </thead>
                         <tbody>
                             {data.players.map(p => {
-                                const player = p[Object.keys(p)[0]]
+                                const player = p[Object.keys(p)[0]];
                                 if (player.team === 0) {
-                                    return (<>
-                                        <tr>
-                                            <td>{player.handle}</td>
-                                            <td>{player.last}</td>
-                                            <td>{player.kos}</td>
-                                            <td>{player.deaths}</td>
-                                            <td>{player.assists}</td>
-                                            <td>{parseInt(player.total_damage)}</td>
-                                            <td>{parseInt(player.total_taken)}</td>
-                                            <td>{parseInt(player.total_heal)}</td>
-                                            </tr>
-                                    </>)
+                                    return <Row key={Object.keys(p)[0]} uid={Object.keys(p)[0]} data={player}/>
                                 }
                             })}
                         </tbody>
@@ -100,20 +89,9 @@ function MatchOverview(props) {
                         </thead>
                         <tbody>
                             {data.players.map(p => {
-                                const player = p[Object.keys(p)[0]]
+                                const player = p[Object.keys(p)[0]];
                                 if (player.team === 1) {
-                                    return (<>
-                                        <tr>
-                                            <td>{player.handle}</td>
-                                            <td>{player.last}</td>
-                                            <td>{player.kos}</td>
-                                            <td>{player.deaths}</td>
-                                            <td>{player.assists}</td>
-                                            <td>{parseInt(player.total_damage)}</td>
-                                            <td>{parseInt(player.total_taken)}</td>
-                                            <td>{parseInt(player.total_heal)}</td>
-                                            </tr>
-                                    </>)
+                                    return <Row key={Object.keys(p)[0]} uid={Object.keys(p)[0]} data={player}/>
                                 }
                             })}
                         </tbody>

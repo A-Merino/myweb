@@ -10,6 +10,8 @@
     flex-direction: column;
 
     border-radius: 1.25em;
+
+    overflow-x: auto;
 }
 
 .match-head {
@@ -25,6 +27,7 @@
     border-spacing: 0;
     border:5px solid black;
 
+    /*display: block;*/
     margin-bottom: 1em;
 
 }
@@ -90,5 +93,22 @@
 
     margin-bottom: 1em;
 
+}
 
+
+
+@media screen and (max-width: 900px) {
+    .match-deets {
+        z-index: 4;
+        background: #37384c;
+        width: 100%;
+
+        margin-bottom: 1em;
+        padding: 0 4em;
+        
+        display: flex;
+        flex-direction: column;
+
+        border-radius: 1.25em;
+    }
 }

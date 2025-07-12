@@ -2,4 +2,42 @@
     display: flex;
     flex-direction: column;
     width: 50%;
+
+}
+
+.ryan {
+    color: #26ef4a;
+
+}
+
+.alex {
+    color: #ff82e9;
+}
+
+.hunter {
+    color: #fd9b32;
+
+}
+
+.sean {
+    color: #9946e1;
+}
+
+.jj {
+    color: #61f6ff;
+}
+
+.roger {
+    color: #e3ff0c;
+}
+
+@media screen and (max-width: 1200px) {
+    #match-holder {
+        display: flex;
+        flex-direction: column;
+        
+        width: 95%;
+
+    }
+
 }

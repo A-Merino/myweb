@@ -1,5 +1,15 @@
 [
     {
+        "id": "2.3.0",
+        "type": "minor",
+        "date": "7/12/2025",
+        "items": [
+            "Added color coding to make it easier to distinguish focused players (/rivals)",
+            "Reverted back to 2.0.0 filtering for at least some functionality (/rivals)",
+            "Resolved display errors for tables on mobile devices (/rivals)"
+
+        ]
+    },{
         "id": "2.2.0",
         "type": "minor",
         "date": "7/11/25",
@@ -24,7 +34,7 @@
         "date": "6/25/25",
         "items": [
             "Began the creation of the Marvel Rivals Stat Tracker (/rivals)",
-            "Added sorting to the list of matches",
+            "Added filtering to the list of matches",
             "Started formatting of the table of stats for each match"
 
         ]
