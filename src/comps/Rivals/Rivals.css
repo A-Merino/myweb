@@ -6,29 +6,29 @@
 }
 
 .ryan {
-    color: #26ef4a;
+    color: var(--ryan);
 
 }
 
 .alex {
-    color: #ff82e9;
+    color: var(--alex);
 }
 
 .hunter {
-    color: #fd9b32;
+    color: var(--hunter);
 
 }
 
 .sean {
-    color: #9946e1;
+    color: var(--sean);
 }
 
 .jj {
-    color: #61f6ff;
+    color: var(--jj);
 }
 
 .roger {
-    color: #e3ff0c;
+    color: var(--roger);
 }
 
 @media screen and (max-width: 1200px) {

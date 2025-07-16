@@ -1,11 +1,20 @@
 [
     {
+        "id": "2.3.1",
+        "type": "patch",
+        "date": "7/16/2025",
+        "items": [
+            "Changed the settings wheel to open list on hover (Used to be when clicked).",
+            "Finished internal CSS and started logic for player notifier (/rivals)"
+
+        ]
+    },{
         "id": "2.3.0",
         "type": "minor",
         "date": "7/12/2025",
         "items": [
             "Added color coding to make it easier to distinguish focused players (/rivals)",
-            "Reverted back to 2.0.0 filtering for at least some functionality (/rivals)",
+            "Reverted back to 2.0.0 filtering for at least some functionality, also top games will be most recent (/rivals)",
             "Resolved display errors for tables on mobile devices (/rivals)"
 
         ]

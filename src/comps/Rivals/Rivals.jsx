@@ -37,38 +37,7 @@ function Rivals() {
             }
         });
 
-        // uids.map(uid => {
-
-        //     const cl = document.getElementById(uid.uid);
-
-        //     if (cl.checked === true) {
-        //         pp.push(cl);
-        //     }
-        // });
-
-
-
-        // for (const match in matchdata) {
-        //     let fact = true;
-        //     const matchid = Object.keys(match)[0];
-
-        //     for (const pl in pp) {
-        //         if (!(match[matchid].uids.includes(pl.id))){
-        //             fact = false;
-                    
-        //         }
-        //     }
-
-        //     if (fact) {
-        //         matches.push(match);
-
-        //     }
-
-
-
-        // } 
         
-
         if (matches.length === 0) {
             setShown(matchdata);
 
@@ -94,7 +63,7 @@ function Rivals() {
             </div>
             <div id='match-holder'>
                 {shown.map(match => {
-                    return <MatchOverview data={match} key={Object.keys(match)[0]}/>
+                    return <MatchOverview data={match} uids={uids} key={Object.keys(match)[0]}/>
                 })
             }
             </div>

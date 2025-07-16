@@ -14,6 +14,15 @@ function MatchOverview(props) {
     const data = props.data[matchid];
 
 
+    // {props.uids.map(uid => {
+    //             if (!data.uids.includes(uid.uid)) {
+    //                 const rhom = document.querySelector("#" + uid.name + 'dp');
+    //                 console.log(rhom);
+    //                 rhom.style.backgroud = 'transparent';
+    //             }
+    //         }) }
+
+
     const changeDisp = (e) => {
         e.preventDefault();
         setClick(!click);
@@ -108,7 +117,16 @@ function MatchOverview(props) {
             <div className='thin-view' id={matchid} onClick={changeDisp}>
                 <p>Match ID: {matchid}</p>
                 <p>{printed()}</p>
+                <div className="diagBox">
+                    <div id="ryandp" className="diagPart"></div>
+                    <div id="alexdp" className="diagPart"></div>
+                    <div id="seandp" className="diagPart"></div>
+                    <div id="jjdp" className="diagPart"></div>
+                    <div id="rogerdp" className="diagPart"></div>
+                    <div id="hunterdp" className="diagPart"></div>
+                </div>
             </div>
+            
             </>
         )
 

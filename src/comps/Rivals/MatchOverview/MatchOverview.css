@@ -96,6 +96,51 @@
 }
 
 
+.diagBox {
+    float: right;
+    
+    display: flex;
+    flex-direction: row;
+
+
+    transform: skewX(-10deg);   
+}
+
+.diagPart {
+    padding: 1em 0.8em;
+    transform: skewX(-10deg);   
+
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+    margin: 0;
+
+}
+
+.diagPart:first-child {
+    border-left: 3px solid white;
+
+}
+
+#ryandp {
+    background: var(--ryan);
+}
+#alexdp {
+    background: var(--alex);
+}
+#seandp {
+    background: var(--sean);
+}
+#jjdp {
+    background: var(--jj);
+}
+#rogerdp {
+    background: var(--roger);
+}
+#hunterdp {
+    background: var(--hunter);
+}
+
 
 @media screen and (max-width: 900px) {
     .match-deets {

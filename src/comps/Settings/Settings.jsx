@@ -13,12 +13,14 @@ function Settings() {
     // Changes between hidden and displayed state for the list
     const settingsClick = (event) => {
         const sl = document.querySelector('#settings-list ul');
-
+        const gear = document.querySelector('.gear-icon');
         if (display) {
             sl.style.display = "none";
+            gear.style.rotate = '-90deg';
 
         } else {
             sl.style.display = "flex";
+            gear.style.rotate = '90deg';
 
         }
         setDisplay(!display);
@@ -32,8 +34,8 @@ function Settings() {
 
     return (
             <>
-            <div id="settings-list">
-                <FontAwesomeIcon  className="gear-icon" onClick={settingsClick}  icon={faGear}/>
+            <div id="settings-list" onMouseEnter={settingsClick} onMouseLeave={settingsClick}>
+                <FontAwesomeIcon  className="gear-icon" icon={faGear}/>
                 <ul id="sl">
                     <li>
                         <Link to="/changelog">Change Log</Link>

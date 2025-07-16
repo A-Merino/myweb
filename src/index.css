@@ -13,6 +13,12 @@ body {
     --dark-back: #131313;
     --dark-link: #458fca;
     --dark-link-vis: #bd8adc;
+    --ryan:#26ef4a;
+    --alex:#ff82e9;
+    --hunter:#fd9b32;
+    --sean:#9946e1;
+    --jj:#61f6ff;
+    --roger:#e3ff0c;
 }
 
 #root {

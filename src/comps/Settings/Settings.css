@@ -121,9 +121,3 @@
     float: left;
 
 }
-
-.gear-icon:hover {
-    rotate:90deg;
-    transition: 0.4s;
-
-}
