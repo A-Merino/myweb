@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './MatchOverview.css'
 import {faX} from '@fortawesome/free-solid-svg-icons/faX'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
@@ -9,18 +9,37 @@ function MatchOverview(props) {
 
     const [click, setClick] = useState(false);
 
+    const [r, sr] = useState(false);
+    const [a, sa] = useState(false);
+    const [s, ss] = useState(false);
+    const [j, sj] = useState(false);
+    const [d, sd] = useState(false);
+    const [h, sh] = useState(false);
+
     const matchid = Object.keys(props.data)[0];
 
     const data = props.data[matchid];
 
+    useEffect(() => {
+    props.uids.map(uid => {
+                if(!data.uids.includes(uid.uid)) {
+                   return;}
+                else if (data.uids.includes(uid.uid) && uid.name === 'ryan') {
+                    sr(true);
+                } else if (data.uids.includes(uid.uid) && uid.name === 'alex') {
+                    sa(true);
+                } else if (data.uids.includes(uid.uid) && uid.name === 'sean') {
+                    ss(true);
+                } else if (data.uids.includes(uid.uid) && uid.name === 'jj') {
+                    sj(true);
+                } else if (data.uids.includes(uid.uid) && uid.name === 'roger') {
+                    sd(true);
+                } else if (data.uids.includes(uid.uid) && uid.name === 'hunter') {
+                    sh(true);
+                }
+            })
 
-    // {props.uids.map(uid => {
-    //             if (!data.uids.includes(uid.uid)) {
-    //                 const rhom = document.querySelector("#" + uid.name + 'dp');
-    //                 console.log(rhom);
-    //                 rhom.style.backgroud = 'transparent';
-    //             }
-    //         }) }
+},[])
 
 
     const changeDisp = (e) => {
@@ -115,15 +134,17 @@ function MatchOverview(props) {
         return (
             <>
             <div className='thin-view' id={matchid} onClick={changeDisp}>
-                <p>Match ID: {matchid}</p>
-                <p>{printed()}</p>
+                <div className='thin-info'>
+                    <p>Match ID: {matchid}</p>
+                    <p>{printed()}</p>
+                </div>
                 <div className="diagBox">
-                    <div id="ryandp" className="diagPart"></div>
-                    <div id="alexdp" className="diagPart"></div>
-                    <div id="seandp" className="diagPart"></div>
-                    <div id="jjdp" className="diagPart"></div>
-                    <div id="rogerdp" className="diagPart"></div>
-                    <div id="hunterdp" className="diagPart"></div>
+                    {r === true && <div id="ryandp" className="diagPart"></div>}
+                    {a === true && <div id="alexdp" className="diagPart"></div>}
+                    {s === true && <div id="seandp" className="diagPart"></div>}
+                    {j === true && <div id="jjdp" className="diagPart"></div>}
+                    {d === true && <div id="rogerdp" className="diagPart"></div>}
+                    {h === true && <div id="hunterdp" className="diagPart"></div>}
                 </div>
             </div>
             

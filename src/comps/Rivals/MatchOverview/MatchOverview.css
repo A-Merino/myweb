@@ -93,11 +93,23 @@
 
     margin-bottom: 1em;
 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.thin-info {
+    width: 50%;
+    /*display: inline-block;*/
+
 }
 
 
 .diagBox {
     float: right;
+
+    margin: 2em 1em;
     
     display: flex;
     flex-direction: row;

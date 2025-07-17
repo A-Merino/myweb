@@ -82,5 +82,25 @@ const compare = (a, b) => {
     }
 }
 
+// function determinePlayers(match, uids) {
+//     uids.map(uid => {
+//                 if(!match.uids.includes(uid.uid)) {
+//                    return;}
+//                 else if (match.uids.includes(uid.uid) && uid.name === 'ryan') {
+//                     sr(true);
+//                 } else if (match.uids.includes(uid.uid) && uid.name === 'alex') {
+//                     sa(true);
+//                 } else if (match.uids.includes(uid.uid) && uid.name === 'sean') {
+//                     ss(true);
+//                 } else if (match.uids.includes(uid.uid) && uid.name === 'jj') {
+//                     sj(true);
+//                 } else if (match.uids.includes(uid.uid) && uid.name === 'roger') {
+//                     sd(true);
+//                 } else if (match.uids.includes(uid.uid) && uid.name === 'hunter') {
+//                     sh(true);
+//                 }
+//             })
+// }
+
 
 export default Rivals

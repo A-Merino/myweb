@@ -1,5 +1,13 @@
 [
     {
+        "id": "2.3.2",
+        "type": "patch",
+        "date": "7/17/2025",
+        "items": [
+            "Finished logic and design of player notifier (/rivals)"
+
+        ]
+    },{
         "id": "2.3.1",
         "type": "patch",
         "date": "7/16/2025",
