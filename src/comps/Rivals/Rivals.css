@@ -5,6 +5,24 @@
 
 }
 
+#choose-players {
+    position: fixed;
+    top: 1em;
+    right: 1em;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+#choose-players label {
+
+}
+
+#choose-players input {
+    
+}
+
 .ryan {
     color: var(--ryan);
 

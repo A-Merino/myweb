@@ -16,9 +16,9 @@ function MatchOverview(props) {
     const [d, sd] = useState(false);
     const [h, sh] = useState(false);
 
-    const matchid = Object.keys(props.data)[0];
 
-    const data = props.data[matchid];
+    const data = props.data;
+    const matchid = data.match_id;
 
     useEffect(() => {
     props.uids.map(uid => {
@@ -55,7 +55,7 @@ function MatchOverview(props) {
     } 
 
     const detWinner = () => {
-        const pdata = data.players[0][Object.keys(data.players[0])[0]];
+        const pdata = data.players[0];
 
         const itself = document.getElementById(matchid);
          if (pdata.team === 0 && pdata.won === 1) {
@@ -94,10 +94,9 @@ function MatchOverview(props) {
                             </tr>
                         </thead>
                         <tbody>
-                            {data.players.map(p => {
-                                const player = p[Object.keys(p)[0]];
+                            {data.players.map(player => {
                                 if (player.team === 0) {
-                                    return <Row key={Object.keys(p)[0]} uid={Object.keys(p)[0]} data={player}/>
+                                    return <Row key={player.uid} uid={player.uid} data={player}/>
                                 }
                             })}
                         </tbody>
@@ -116,10 +115,9 @@ function MatchOverview(props) {
                             </tr>
                         </thead>
                         <tbody>
-                            {data.players.map(p => {
-                                const player = p[Object.keys(p)[0]];
+                            {data.players.map(player => {
                                 if (player.team === 1) {
-                                    return <Row key={Object.keys(p)[0]} uid={Object.keys(p)[0]} data={player}/>
+                                    return <Row key={player.uid} uid={player.uid} data={player}/>
                                 }
                             })}
                         </tbody>

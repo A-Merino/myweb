@@ -10,6 +10,8 @@ function Rivals() {
     let matchdata = Matches;
     matchdata.sort(compare);
     matchdata.reverse();
+    console.log(matchdata[0])
+    // determinePlayers(matchdata[0], uids);
 
     const [shown, setShown] = useState(matchdata);
     const [players, modPlayers] = useState([false,false,false,false,false,false]);
@@ -27,8 +29,7 @@ function Rivals() {
                 pp.push(cl);
 
                 matchdata.map(match => {
-                    const matchid = Object.keys(match)[0];
-                    if (match[matchid].uids.includes(uid.uid.toString()) && !(matches.includes(match))) {
+                    if (match.uids.includes(uid.uid.toString()) && !(matches.includes(match))) {
                         matches.push(match);
 
                     }
@@ -53,17 +54,18 @@ function Rivals() {
         <>
             <div id="rival-head">
                 <h1>Marvel Rivals Stat Tracker</h1>
+                <div id="choose-players">
                 {
                     uids.map(uid => {
                         return (
                             <label className={uid.name}><input onClick={filter} key={uid.uid} id={uid.uid} type="checkbox"/>{uid.user}</label>
                             )
                     })
-                }
+                }</div>
             </div>
             <div id='match-holder'>
                 {shown.map(match => {
-                    return <MatchOverview data={match} uids={uids} key={Object.keys(match)[0]}/>
+                    return <MatchOverview data={match} uids={uids} key={match.match_id}/>
                 })
             }
             </div>
@@ -72,8 +74,8 @@ function Rivals() {
 }
 
 const compare = (a, b) => {
-    const time_a = parseInt(Object.keys(a)[0].split('_')[1])
-    const time_b = parseInt(Object.keys(b)[0].split('_')[1])
+    const time_a = parseInt(a.match_id.split('_')[1])
+    const time_b = parseInt(b.match_id.split('_')[1])
     if (time_a < time_b) {
         return -1;
 
@@ -82,25 +84,27 @@ const compare = (a, b) => {
     }
 }
 
-// function determinePlayers(match, uids) {
-//     uids.map(uid => {
-//                 if(!match.uids.includes(uid.uid)) {
-//                    return;}
-//                 else if (match.uids.includes(uid.uid) && uid.name === 'ryan') {
-//                     sr(true);
-//                 } else if (match.uids.includes(uid.uid) && uid.name === 'alex') {
-//                     sa(true);
-//                 } else if (match.uids.includes(uid.uid) && uid.name === 'sean') {
-//                     ss(true);
-//                 } else if (match.uids.includes(uid.uid) && uid.name === 'jj') {
-//                     sj(true);
-//                 } else if (match.uids.includes(uid.uid) && uid.name === 'roger') {
-//                     sd(true);
-//                 } else if (match.uids.includes(uid.uid) && uid.name === 'hunter') {
-//                     sh(true);
-//                 }
-//             })
-// }
+function determinePlayers(match, uids) {
+    let pla = [false,false,false,false,false,false]
+    uids.map(uid => {
+                if(!match.uids.includes(uid.uid)) {
+                   return;}
+                else if (match.uids.includes(uid.uid) && uid.name === 'ryan') {
+                    pla[0] = true
+                } else if (match.uids.includes(uid.uid) && uid.name === 'alex') {
+                    pla[1] = true
+                } else if (match.uids.includes(uid.uid) && uid.name === 'sean') {
+                    pla[2] = true
+                } else if (match.uids.includes(uid.uid) && uid.name === 'jj') {
+                    pla[3] = true
+                } else if (match.uids.includes(uid.uid) && uid.name === 'roger') {
+                    pla[4] = true
+                } else if (match.uids.includes(uid.uid) && uid.name === 'hunter') {
+                    pla[5] = true
+                }
+            })
+    console.log(pla)
+}
 
 
 export default Rivals
