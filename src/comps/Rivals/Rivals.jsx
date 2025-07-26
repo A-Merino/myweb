@@ -10,7 +10,6 @@ function Rivals() {
     let matchdata = Matches;
     matchdata.sort(compare);
     matchdata.reverse();
-    console.log(matchdata[0])
     // determinePlayers(matchdata[0], uids);
 
     const [shown, setShown] = useState(matchdata);

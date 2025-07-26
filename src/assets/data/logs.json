@@ -1,5 +1,13 @@
 [
     {
+        "id": "2.3.4",
+        "type": "patch",
+        "date": "7/25/2025",
+        "items": [
+            "Added title to player notifier to show name when hovering (/rivals)",
+            "Modified thin view of matches to show map and length (/rivals)" 
+        ]
+    },{
         "id": "2.3.3",
         "type": "patch",
         "date": "7/17/2025",

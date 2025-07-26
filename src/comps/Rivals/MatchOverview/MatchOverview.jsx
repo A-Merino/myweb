@@ -3,10 +3,12 @@ import './MatchOverview.css'
 import {faX} from '@fortawesome/free-solid-svg-icons/faX'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import Row from './Row/Row.jsx'
+import MAPS from './../../../assets/data/rivals/maps.json';
 
 
 function MatchOverview(props) {
 
+    const maps = MAPS;
     const [click, setClick] = useState(false);
 
     const [r, sr] = useState(false);
@@ -41,6 +43,24 @@ function MatchOverview(props) {
 
 },[])
 
+    const findMap = (mapID) => {
+        let mN = ""
+        maps.map(map => {
+            if (map.id === mapID) {
+                mN = map.name;
+            } else {
+                return;
+            }
+        })
+
+        return mN
+    }
+
+    const detLen = (time) => {
+        let min = Math.floor(time / 60);
+        let sec = Math.ceil(time % 60);
+        return `${min}m ${sec}s`
+    }
 
     const changeDisp = (e) => {
         e.preventDefault();
@@ -122,8 +142,6 @@ function MatchOverview(props) {
                             })}
                         </tbody>
                     </table>
-
-
                 </div>
             </>
         )
@@ -133,16 +151,18 @@ function MatchOverview(props) {
             <>
             <div className='thin-view' id={matchid} onClick={changeDisp}>
                 <div className='thin-info'>
-                    <p>Match ID: {matchid}</p>
+                    <p>{data.game_mode} -- {findMap(props.data.map)}</p>
+                    <p>Season: {props.data.season}</p>
+                    <p>Length: {detLen(props.data.length)}</p>
                     <p>{printed()}</p>
                 </div>
                 <div className="diagBox">
-                    {r === true && <div id="ryandp" className="diagPart"></div>}
-                    {a === true && <div id="alexdp" className="diagPart"></div>}
-                    {s === true && <div id="seandp" className="diagPart"></div>}
-                    {j === true && <div id="jjdp" className="diagPart"></div>}
-                    {d === true && <div id="rogerdp" className="diagPart"></div>}
-                    {h === true && <div id="hunterdp" className="diagPart"></div>}
+                    {r === true && <div id="ryandp" title="Ryan" className="diagPart"></div>}
+                    {a === true && <div id="alexdp" title="Alex" className="diagPart"></div>}
+                    {s === true && <div id="seandp" title="Sean" className="diagPart"></div>}
+                    {j === true && <div id="jjdp" title="JJ" className="diagPart"></div>}
+                    {d === true && <div id="rogerdp" title="Roger" className="diagPart"></div>}
+                    {h === true && <div id="hunterdp" title="Hunter" className="diagPart"></div>}
                 </div>
             </div>
             

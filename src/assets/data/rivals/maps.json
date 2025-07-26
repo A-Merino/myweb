@@ -1,0 +1,190 @@
+[
+    {
+        "id":1032,  
+        "name":"Yggdrasill Path",
+        "type":"Convoy"
+    },{
+        "id":1034,
+        "name":"Shin-Shibuya",
+        "type":"Convergence"
+    },{
+        "id":1101,
+        "name":"Hall of Djalia",
+        "type":"Convergence"
+    },{
+        "id":1118,
+        "name":"Sanctum Sanctorum",
+        "type":"Doom Match"
+    },{
+        "id":1148,
+        "name":"Spider-Islands",
+        "type":"Convoy"
+    },{
+        "id":1155,
+        "name":"Royal Palace",
+        "type":"Domination"
+    },{
+        "id":1156,
+        "name":"Royal Palace",
+        "type":"Domination"
+    },{
+        "id":1161,
+        "name":"Birnin T'Challa",
+        "type":"Domination"
+    },{
+        "id":1162,
+        "name":"Birnin T'Challa",
+        "type":"Domination"
+    },{
+        "id":1169,
+        "name":"Birnin T'Challa",
+        "type":"Domination"
+    },{
+        "id":1170,
+        "name":"Royal Palace",
+        "type":"Domination"
+    },{
+        "id":1201,
+        "name":"Midtown",
+        "type":"Convoy"
+    },{
+        "id":1230,
+        "name":"Shin-Shibuya",
+        "type":"Convergence"
+    },{
+        "id":1231,
+        "name":"Yggdrasill Path",
+        "type":"Convoy"
+    },{
+        "id":1235,
+        "name":"Birnin T'Challa",
+        "type":"Domination"
+    },{
+        "id":1236,
+        "name":"Royal Palace",
+        "type":"Domination"
+    },{
+        "id":1240,
+        "name":"Symbiotic Surface",
+        "type":"Convergence"
+    },{
+        "id":1243,
+        "name":"Hell's Heaven",
+        "type":"Domination"
+    },{
+        "id":1244,
+        "name":"Hell's Heaven",
+        "type":"Domination"
+    },{
+        "id":1245,
+        "name":"Spider-Islands",
+        "type":"Convoy"
+    },{
+        "id":1246,
+        "name":"Tokyo 2099",
+        "type":"Conquest"
+    },{
+        "id":1254,
+        "name":"Royal Palace",
+        "type":"Jeff's winter splash festival"
+    },{
+        "id":1267,
+        "name":"Hall of Djalia",
+        "type":"Convergence"
+    },{
+        "id":1272,
+        "name":"Birnin T'Challa",
+        "type":"Domination"
+    },{
+        "id":1287,
+        "name":"Hell's Heaven",
+        "type":"Domination"
+    },{
+        "id":1288,
+        "name":"Hell's Heaven",
+        "type":"Domination"
+    },{
+        "id":1289,
+        "name":"Dancing Stage",
+        "type":"Clash of dancing lions"
+    },{
+        "id":1290,
+        "name":"Symbiotic Surface",
+        "type":"Convergence"
+    },{
+        "id":1291,
+        "name":"Midtown",
+        "type":"Convoy"
+    },{
+        "id":1246,
+        "name":"Tokyo 2099",
+        "type":"Conquest"
+    },{
+        "id":1292,
+        "name":"Central Park",
+        "type":"Convergence"
+    },{
+        "id":1217,
+        "name":"Central Park",
+        "type":"Convergence"
+    },{
+        "id":1302,
+        "name":"Birnin T'Challa",
+        "type":"Clone Rumble"
+    },{
+        "id":1304,
+        "name":"Krakoa",
+        "type":"Domination"
+    },{
+        "id":1309,
+        "name":"Krakoa",
+        "type":"Domination"
+    },{
+        "id":1310,
+        "name":"Krakoa",
+        "type":"Domination"
+    },{
+        "id":1273,
+        "name":"Krakoa",
+        "type":"Domination"
+    },{
+        "id":1281,
+        "name":"Krakoa",
+        "type":"Domination"
+    },{
+        "id":1286,
+        "name":"Arakko",
+        "type":"Convoy"
+    },{
+        "id":1294,
+        "name":"Celestial Husk",
+        "type":"Domination"
+    },{
+        "id":1295,
+        "name":"Celestial Husk",
+        "type":"Domination"
+    },{
+        "id":1296,
+        "name":"Celestial Husk",
+        "type":"Domination"
+    },{
+        "id":1311,
+        "name":"Arakko",
+        "type":"Convoy"
+    },{
+        "id":1312,
+        "name":"Tokyo 2099",
+        "type":"Arcade"
+    },{
+        "id":1313,
+        "name":"Tokyo 2099",
+        "type":"Arcade"
+    },{
+        "id":1317,
+        "name":"Celestial Husk",
+        "type":"Domination"
+    },{
+        "id":1318,
+        "name":"Celestial Husk",
+        "type":"Domination"}
+]
